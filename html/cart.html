@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/helper.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container d-flex justify-content-between align-items-center">
+            <div id="app-logo">
+                <a href="">
+                    <img src="../assets/icons/app-icon.png" alt="Art Shuffle">
+                </a>
+            </div>
+            <div id="app-menu-list" class="d-flex align-items-center">
+                <div id="nav-list-cntr">
+                    <ul class="d-flex ">
+                        <li class="dropdown-link"><a href="">Gallery</a>
+                            <ul class="d-flex drop-down-content">
+                                <li><a href="">Paintings</a></li>
+                                <li><a href="">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div id="search-area">
+                    <input type="text" class="form-control" placeholder="Search..">
+                </div>
+            </div>
+            <div id="app-misc-cntr" class="dropdown-link">
+                <i class="fa fa-user-circle user-icon " aria-hidden="true"></i>
+                <ul class="d-flex drop-down-content">
+                    <li><i class="fa fa-user" aria-hidden="true"></i><a href="">Account</a></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="">Cart</a></li>
+                    <li> <i class="fa fa-power-off" aria-hidden="true"></i><a href="">Log off</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="cart">
+
+        <div class="container d-flex">
+            <div class="cart-logo-cntr">
+                <div class="cart-logo-img">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+                <div class="cart-logo-description">
+                    <p>My Cart</p>
+
+                </div>
+            </div>
+            <div class="cart-cntr d-flex flex-column">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Artist</th>
+                        <th>Cost</th>
+                        <th class="remove-product"></th>
+                    </tr>
+                    <tr>
+                        <td><img src="../assets/images/painting1.jpg" alt="Painting 1"></td>
+                        <td>Painting 1</td>
+                        <td>David Web</td>
+                        <td class="cost">$33.00</td>
+                        <td class="remove-product"><i class=" fa fa-times " aria-hidden="true "></i></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../assets/images/photograph1.jpg " alt="Photograph 1"></td>
+                        <td>Photograph 1</td>
+                        <td>John Fernandez</td>
+                        <td class="cost">$46.00</td>
+                        <td class="remove-product "><i class="fa fa-times " aria-hidden="true "></i></td>
+                    </tr>
+
+
+                </table>
+                <hr>
+                <div class="cost-cntr d-flex align-items-center">
+                    <div class="apply-promo-text">Apply Promo</div>
+                    <div class="apply-promo-box"> <input type="text" class="form-control"></div>
+                    <div class="total-cost-text">Total</div>
+                    <div class="total-cost-box">$79.00</div>
+                    <div><button class="btn btn-primary">Checkout</button></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id="footer-cntr" class="container d-flex flex-column justify-content-between align-items-center ">
+            <div id="footer-main-content" class="d-flex flex-column align-items-center justify-content-center ">
+                <div class="footer-sub-title ">Our Social Networks</div>
+                <div class="social-media-cntr ">
+
+                    <ul class="d-flex ">
+                        <li><i class="fa fa-facebook-official fb " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-instagram insta " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-twitter-square twitter " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-pinterest-square pin " aria-hidden="true "></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right ">© Copyright Art Shuffle. All Rights Reserved</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

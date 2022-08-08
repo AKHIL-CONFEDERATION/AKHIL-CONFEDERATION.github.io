@@ -1,0 +1,52 @@
+    footer {
+        background-color: #f2f5fa;
+    }
+    
+    #footer-cntr {
+        min-height: 70px;
+    }
+    
+    #footer-cntr .copy-right {
+        font-family: Roboto-Medium;
+        padding: 30px;
+    }
+    
+    #footer-cntr #footer-main-content {
+        color: #747579;
+    }
+    
+    #footer-cntr #footer-main-content .footer-sub-title {
+        font-family: Roboto-Medium;
+        padding: 15px;
+        color: #2487ce;
+        text-transform: uppercase;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul {
+        flex-direction: row;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul li i {
+        text-decoration: none;
+        padding: 0 30px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul li i.insta {
+        color: #c13584;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul li i.twitter {
+        color: #1da1f2;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul li i.pin {
+        color: #e60023;
+    }
+    
+    #footer-cntr #footer-main-content .social-media-cntr ul li i.fb {
+        color: #4267b2;
+    }

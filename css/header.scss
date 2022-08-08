@@ -1,0 +1,68 @@
+header {
+    background-color: white;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 5%);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    nav {
+        padding: 0 16px;
+        #app-logo {
+            a {
+                img {
+                    height: 40px;
+                }
+            }
+        }
+        #app-menu-list {
+            #nav-list-cntr {
+                ul {
+                    flex-direction: row;
+                    list-style: none;
+                    padding-left: 0;
+                    li {
+                        a {
+                            font-family: roboto-medium;
+                            text-decoration: none;
+                            padding: 0 16px;
+                            color: #747579;
+                            line-height: 40px;
+                            &:hover {
+                                color: #ff8484;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #app-misc-cntr {
+            cursor: pointer;
+            .user-icon {
+                font-size: 34px;
+                color: #ff8484;
+            }
+            ul {
+                flex-direction: row;
+                list-style: none;
+                padding-left: 0;
+                top: 18px;
+                right: 0;
+                width: 120px;
+                padding: 15px;
+                li {
+                    a {
+                        font-family: roboto-medium;
+                        text-decoration: none;
+                        padding: 0 16px;
+                        color: #747579;
+                        line-height: 40px;
+                        &:hover {
+                            color: #ff8484;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

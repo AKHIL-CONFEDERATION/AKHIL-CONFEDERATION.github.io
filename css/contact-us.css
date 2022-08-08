@@ -1,0 +1,30 @@
+#contact-us .contact-us-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #2487ce;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#contact-us .contact-us-form {
+    margin-top: 60px;
+}
+
+#contact-us .contact-us-form-element {
+    min-height: 70px;
+    margin-right: 50px;
+}
+
+#contact-us .contact-us-form-element label {
+    margin-bottom: 12px;
+}
+
+#contact-us .contact-us-form-element.button-margin {
+    margin-top: 30px;
+}
+
+#contact-us .contact-us-form-element.checkbox-margin {
+    min-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

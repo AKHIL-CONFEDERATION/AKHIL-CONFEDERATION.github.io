@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/helper.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/contact-us.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container d-flex justify-content-between align-items-center">
+            <div id="app-logo">
+                <a href="">
+                    <img src="../assets/icons/app-icon.png" alt="Art Shuffle">
+                </a>
+            </div>
+            <div id="app-menu-list" class="d-flex align-items-center">
+                <div id="nav-list-cntr">
+                    <ul class="d-flex ">
+                        <li class="dropdown-link"><a href="">Gallery</a>
+                            <ul class="d-flex drop-down-content">
+                                <li><a href="">Paintings</a></li>
+                                <li><a href="">Photography</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div id="search-area">
+                    <input type="text" class="form-control" placeholder="Search..">
+                </div>
+            </div>
+            <div id="app-misc-cntr" class="dropdown-link">
+                <i class="fa fa-user-circle user-icon " aria-hidden="true"></i>
+                <ul class="d-flex drop-down-content">
+                    <li><i class="fa fa-user" aria-hidden="true"></i><a href="">Account</a></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="">Cart</a></li>
+                    <li> <i class="fa fa-power-off" aria-hidden="true"></i><a href="">Log off</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="contact-us">
+
+        <div class="container">
+            <div class="contact-us-title">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="contact-us-form">
+                <form action="contact-us">
+                    <div class="d-flex">
+
+                        <div class="contact-us-form-element">
+                            <label for="FirstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="FirstName">
+                        </div>
+                        <div class="contact-us-form-element">
+                            <label for="LastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="LastName">
+                        </div>
+                    </div>
+                    <div class="contact-us-form-element">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="contact-us-form-element">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="contact-us-form-element">
+                        <label for="Address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="Address">
+                    </div>
+                    <div class="d-flex">
+
+                        <div class="contact-us-form-element">
+                            <label for="Country" class="form-label">Country</label>
+                            <input type="email" class="form-control" id="Country">
+                        </div>
+                        <div class="contact-us-form-element">
+                            <label for="zip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="zip">
+                        </div>
+                    </div>
+                    <div class="contact-us-form-element checkbox-margin">
+                        <input type="checkbox" class="form-check-input" id="Option1">
+                        <label class="form-check-label" for="Option1">Interested in Paintings</label>
+                    </div>
+                    <div class="contact-us-form-element checkbox-margin">
+                        <input type="checkbox" class="form-check-input" id="Option2">
+                        <label class="form-check-label" for="Option2">Interested in Photographs</label>
+                    </div>
+                    <div class="contact-us-form-element">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="contact-us-form-element button-margin">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div id="footer-cntr" class="container d-flex flex-column justify-content-between align-items-center ">
+            <div id="footer-main-content" class="d-flex flex-column align-items-center justify-content-center ">
+                <div class="footer-sub-title ">Our Social Networks</div>
+                <div class="social-media-cntr ">
+
+                    <ul class="d-flex ">
+                        <li><i class="fa fa-facebook-official fb " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-instagram insta " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-twitter-square twitter " aria-hidden="true "></i></li>
+                        <li><i class="fa fa-pinterest-square pin " aria-hidden="true "></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right ">© Copyright Art Shuffle. All Rights Reserved</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

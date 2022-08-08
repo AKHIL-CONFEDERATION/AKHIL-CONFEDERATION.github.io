@@ -1,0 +1,66 @@
+header {
+    background-color: white;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header nav {
+    padding: 0 16px;
+}
+
+header nav #app-logo a img {
+    height: 40px;
+}
+
+header nav #app-menu-list #nav-list-cntr ul {
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav #app-menu-list #nav-list-cntr ul li a {
+    font-family: roboto-medium;
+    text-decoration: none;
+    padding: 0 16px;
+    color: #747579;
+    line-height: 40px;
+}
+
+header nav #app-menu-list #nav-list-cntr ul li a:hover {
+    color: #ff8484;
+}
+
+header nav #app-misc-cntr {
+    cursor: pointer;
+}
+
+header nav #app-misc-cntr .user-icon {
+    font-size: 34px;
+    color: #ff8484;
+}
+
+header nav #app-misc-cntr ul {
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    top: 18px;
+    right: 0;
+    width: 120px;
+    padding: 15px;
+}
+
+header nav #app-misc-cntr ul li a {
+    font-family: roboto-medium;
+    text-decoration: none;
+    padding: 0 16px;
+    color: #747579;
+    line-height: 40px;
+}
+
+header nav #app-misc-cntr ul li a:hover {
+    color: #ff8484;
+}

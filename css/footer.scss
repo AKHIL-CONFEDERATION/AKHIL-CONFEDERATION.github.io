@@ -1,0 +1,47 @@
+footer {
+    background-color: #f2f5fa;
+}
+
+#footer-cntr {
+    min-height: 70px;
+    .copy-right {
+        font-family: Roboto-Medium;
+        padding: 30px;
+    }
+    #footer-main-content {
+        color: #747579;
+        .footer-sub-title {
+            font-family: Roboto-Medium;
+            padding: 15px;
+            color: #2487ce;
+            text-transform: uppercase;
+        }
+        .social-media-cntr {
+            ul {
+                flex-direction: row;
+                list-style: none;
+                padding-left: 0;
+                li {
+                    i {
+                        text-decoration: none;
+                        padding: 0 30px;
+                        line-height: 40px;
+                        font-size: 30px;
+                        &.insta {
+                            color: #C13584;
+                        }
+                        &.twitter {
+                            color: #1DA1F2;
+                        }
+                        &.pin {
+                            color: #E60023;
+                        }
+                        &.fb {
+                            color: #4267B2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
