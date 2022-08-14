@@ -1,0 +1,72 @@
+/* Common Styles */
+
+#auth {
+    background: #2487ce;
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    min-height: 100%;
+}
+
+#auth .auth-form-title {
+    color: #ff8484;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#auth .auth-from-cntr {
+    background-color: white;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(255, 132, 132, 0.5);
+    z-index: 1;
+    border: 2px solid #ff8484;
+}
+
+#auth .auth-from-cntr form .login-form-element {
+    min-height: 70px;
+    margin-right: 50px;
+}
+
+#auth .auth-from-cntr form .login-form-element label {
+    margin-bottom: 12px;
+}
+
+#auth .auth-from-cntr form .login-form-element.button-margin {
+    margin-top: 30px;
+}
+
+#auth .auth-from-cntr form .login-form-element.button-margin button {
+    width: 286px;
+}
+
+#auth .auth-from-cntr form input {
+    width: 260px;
+}
+
+#auth .copy-right-auth-cntr {
+    font-family: Roboto-Medium;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+/* media query for devices */
+
+@media only screen and (max-width: 468px) {
+    #auth {
+        flex-direction: column !important;
+    }
+    #auth .auth-from-cntr {
+        max-width: 250px;
+    }
+    #auth .auth-from-cntr form input {
+        max-width: 230px;
+    }
+    #auth .auth-from-cntr form .login-form-element.button-margin button {
+        max-width: 230px;
+    }
+}
