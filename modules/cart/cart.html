@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cart</title>
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/helper.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/helper.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="./cart.css">
     <style>
 
     </style>
@@ -22,33 +22,43 @@
     <header>
         <nav class="container d-flex justify-content-between align-items-center">
             <div id="app-logo">
-                <a href="">
-                    <img src="../assets/icons/app-icon.png" alt="Art Shuffle">
+                <a href="../home/home.html">
+                    <img src="../../assets/icons/app-icon.png" alt="Art Shuffle">
                 </a>
             </div>
             <div id="app-menu-list" class="d-flex align-items-center">
                 <div id="nav-list-cntr">
-                    <ul class="d-flex ">
+                    <ul class="d-flex hide-device">
                         <li class="dropdown-link"><a href="">Gallery</a>
                             <ul class="d-flex drop-down-content">
-                                <li><a href="">Paintings</a></li>
-                                <li><a href="">Photography</a></li>
+                                <li><a href="../paintings/paintings.html">Paintings</a></li>
+                                <li><a href="../photography/photography.html">Photography</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="../contact-us/contact-us.html">Contact Us</a></li>
+                        <li><a href="../about-us/about-us.html">About</a></li>
                     </ul>
                 </div>
                 <div id="search-area">
                     <input type="text" class="form-control" placeholder="Search..">
                 </div>
             </div>
-            <div id="app-misc-cntr" class="dropdown-link">
+            <div id="app-misc-cntr" class="dropdown-link hide-device">
                 <i class="fa fa-user-circle user-icon " aria-hidden="true"></i>
                 <ul class="d-flex drop-down-content">
-                    <li><i class="fa fa-user" aria-hidden="true"></i><a href="">Account</a></li>
-                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="">Cart</a></li>
-                    <li> <i class="fa fa-power-off" aria-hidden="true"></i><a href="">Log off</a></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../cart/cart.html">Cart</a></li>
+                    <li> <i class="fa fa-power-off" aria-hidden="true"></i><a href="../login/login.html">Log off</a></li>
+                </ul>
+            </div>
+            <div id="app-misc-cntr" class="dropdown-link hide-screen">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <ul class="d-flex drop-down-content">
+                    <li><i class="fa fa-paint-brush" aria-hidden="true"></i><a href="../paintings/paintings.html">Paintings</a></li>
+                    <li><i class="fa fa-camera-retro" aria-hidden="true"></i><a href="../photography/photography.html">Photography</a></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="../contact-us/contact-us.html">Contact Us</a></li>
+                    <li><i class="fa fa-user" aria-hidden="true"></i><a href="../about-us/about-us.html">About Us</a></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="../cart/cart.html">Cart</a></li>
+                    <li> <i class="fa fa-power-off" aria-hidden="true"></i><a href="../login/login.html">Log off</a></li>
                 </ul>
             </div>
         </nav>
@@ -56,7 +66,7 @@
     <main id="cart">
 
         <div class="container d-flex">
-            <div class="cart-logo-cntr">
+            <div class="cart-logo-cntr hide-device">
                 <div class="cart-logo-img">
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </div>
@@ -65,8 +75,9 @@
 
                 </div>
             </div>
-            <div class="cart-cntr d-flex flex-column">
-                <table>
+
+            <div class="cart-cntr d-flex flex-column ">
+                <table class="hide-device ">
                     <tr>
                         <th></th>
                         <th>Item</th>
@@ -75,14 +86,14 @@
                         <th class="remove-product"></th>
                     </tr>
                     <tr>
-                        <td><img src="../assets/images/painting1.jpg" alt="Painting 1"></td>
+                        <td><img src="../../assets/images/painting1.jpg" alt="Painting 1"></td>
                         <td>Painting 1</td>
                         <td>David Web</td>
                         <td class="cost">$33.00</td>
                         <td class="remove-product"><i class=" fa fa-times " aria-hidden="true "></i></td>
                     </tr>
                     <tr>
-                        <td><img src="../assets/images/photograph1.jpg " alt="Photograph 1"></td>
+                        <td><img src="../../assets/images/photograph1.jpg " alt="Photograph 1"></td>
                         <td>Photograph 1</td>
                         <td>John Fernandez</td>
                         <td class="cost">$46.00</td>
@@ -91,6 +102,28 @@
 
 
                 </table>
+                <div class="cart-logo-description hide-screen">
+                    <h2>My Cart</h2>
+
+                </div>
+                <div class="mob-view-cart d-flex align-items-center justify-content-between hide-screen">
+                    <div class="cart-item">
+                        <div><img src="../../assets/images/painting1.jpg" alt="Painting 1" height="150px" width="150px"></div>
+                        <div>Painting 1</div>
+                        <div>David Web</div>
+                        <div class="cost">$33.00</div>
+                    </div>
+                    <div class="remove-product"><i class=" fa fa-times " aria-hidden="true "></i></div>
+                </div>
+                <div class="mob-view-cart d-flex align-items-center justify-content-between hide-screen">
+                    <div class="cart-item">
+                        <div><img src="../../assets/images/photograph1.jpg" alt="Photograph 1" height="150px" width="150px"></div>
+                        <div>Photograph 1</div>
+                        <div>John Fernandez</div>
+                        <div class="cost">$46.00</div>
+                    </div>
+                    <div class="remove-product"><i class=" fa fa-times " aria-hidden="true "></i></div>
+                </div>
                 <hr>
                 <div class="cost-cntr d-flex align-items-center">
                     <div class="apply-promo-text">Apply Promo</div>

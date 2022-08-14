@@ -22,6 +22,15 @@ header nav #app-menu-list #nav-list-cntr ul {
     padding-left: 0;
 }
 
+@media only screen and (max-width: 468px) {
+    header nav #app-menu-list {
+        display: none !important;
+    }
+    header nav #search-area {
+        display: none !important;
+    }
+}
+
 header nav #app-menu-list #nav-list-cntr ul li a {
     font-family: roboto-medium;
     text-decoration: none;
@@ -39,6 +48,11 @@ header nav #app-misc-cntr {
 }
 
 header nav #app-misc-cntr .user-icon {
+    font-size: 34px;
+    color: #ff8484;
+}
+
+header nav #app-misc-cntr .fa-bars {
     font-size: 34px;
     color: #ff8484;
 }
@@ -63,4 +77,23 @@ header nav #app-misc-cntr ul li a {
 
 header nav #app-misc-cntr ul li a:hover {
     color: #ff8484;
+}
+
+@media only screen and (max-width: 468px) {
+    header {
+        height: 52px;
+        padding-top: 15px;
+    }
+    header nav #app-misc-cntr .fa-bars {
+        margin-right: 15px;
+    }
+    header nav #app-misc-cntr ul {
+        flex-direction: row;
+        list-style: none;
+        padding-left: 0;
+        top: 18px;
+        right: 0;
+        width: 220px;
+        padding: 15px;
+    }
 }

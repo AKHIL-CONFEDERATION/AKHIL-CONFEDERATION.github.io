@@ -344,6 +344,12 @@ main {
     transform: scale(1.2);
 }
 
+@media only screen and (max-width: 468px) {
+    #paintings .product-area {
+        justify-content: center;
+    }
+}
+
 #paintings .product-area {
     min-height: 370px;
 }
@@ -363,4 +369,16 @@ main {
 
 .drop-down-content {
     display: none !important;
+}
+
+@media only screen and (max-width: 468px) {
+    .hide-device {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    .hide-screen {
+        display: none !important;
+    }
 }

@@ -52,3 +52,20 @@
 #details .product-image-cntr img:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 468px) {
+    #details .details-mob-cntr {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    #details .product-image-cntr img {
+        height: 250px;
+        width: 250px;
+    }
+    #details .product-details {
+        padding: 20px;
+    }
+}

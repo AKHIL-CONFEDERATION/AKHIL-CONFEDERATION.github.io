@@ -50,3 +50,12 @@
     #footer-cntr #footer-main-content .social-media-cntr ul li i.fb {
         color: #4267b2;
     }
+    
+    @media only screen and (max-width: 468px) {
+        #footer-cntr .copy-right {
+            padding: 15px;
+        }
+        #footer-cntr #footer-main-content .social-media-cntr ul li i {
+            padding: 0 10px;
+        }
+    }

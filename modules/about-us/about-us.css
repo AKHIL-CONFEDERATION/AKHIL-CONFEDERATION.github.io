@@ -53,3 +53,10 @@
 #about-us .about-us-contact .tab-info {
     color: #2487ce;
 }
+
+@media only screen and (max-width: 468px) {
+    #about-us .about-us-description {
+        padding: 10px;
+        max-width: 100%;
+    }
+}

@@ -68,6 +68,12 @@
     color: #ff8484;
 }
 
+#cart .cart-cntr .mob-view-cart .fa-times,
+#cart .cart-cntr .mob-view-cart .fa-times {
+    color: #ff8484;
+    font-size: 30px;
+}
+
 #cart .cart-cntr table th .fa-times:hover,
 #cart .cart-cntr table tr .fa-times:hover {
     opacity: 0.7;
@@ -90,4 +96,43 @@
 #cart .cart-cntr table th .cost,
 #cart .cart-cntr table tr .cost {
     color: #2487ce;
+}
+
+#cart .cart-cntr .mob-view-cart .cost,
+#cart .cart-cntr .mob-view-cart .cost {
+    color: #2487ce;
+}
+
+@media only screen and (max-width: 468px) {
+    #cart .cost-cntr {
+        flex-direction: column;
+        align-items: start!important;
+    }
+    #cart .cart-cntr .cost-cntr .apply-promo-text {
+        width: 100px;
+        font-style: italic;
+    }
+    #cart .cart-cntr .cost-cntr .apply-promo-box {
+        width: 202px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    #cart .cart-cntr .cost-cntr .total-cost-text {
+        margin-top: 10px;
+        width: 100px;
+        font-style: italic;
+        margin-left: 0px;
+    }
+    #cart .cart-cntr .cost-cntr .total-cost-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #2487ce;
+    }
+    #cart .cart-cntr {
+        margin-right: 35px;
+        width: 75%;
+    }
+    #cart .mob-view-cart {
+        margin-bottom: 25px;
+    }
 }
