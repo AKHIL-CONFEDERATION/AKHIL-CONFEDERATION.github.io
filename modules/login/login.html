@@ -47,7 +47,7 @@
                 </form>
 
                 <div class="copy-right-auth-cntr">
-                    <button type="submit" class="btn" onclick="location.href='../sign-up/sign-up.html';">Sign Up </button>
+                    <button type="submit" class="btn" id="sign-up">Sign Up </button>
 
                 </div>
                 <div class="copy-right-auth-cntr">
@@ -58,5 +58,10 @@
     </main>
 
 </body>
+<script>
+    document.getElementById("sign-up").onclick = function() {
+        window.location.href = '../sign-up/sign-up.html';
+    };
+</script>
 
 </html>
